@@ -1,4 +1,3 @@
 @echo off
-cd app
-electron-packager . --out=../dist
+npm run dist
 exit

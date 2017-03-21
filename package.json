@@ -5,7 +5,9 @@
   "main": "./app/main.js",
   "scripts": {
     "refresh": "electron .",
-    "watch": "npm-watch | lapis"
+    "watch": "start npm-watch && start lapis",
+    "watch-alt": "npm-watch | lapis",
+    "dist": "electron-packager . --out=dist --overwrite"
   },
   "repository": "https://github.com/entozoon/electron-app-template",
   "keywords": [
@@ -20,6 +22,7 @@
     "electron-packager": "^8.6.0"
   },
   "dependencies": {
+    "electron-packager": "^8.6.0",
     "lapis-compiler": "^1.6.4",
     "npm-watch": "^0.1.8"
   },

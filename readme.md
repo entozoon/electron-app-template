@@ -3,7 +3,7 @@
 Yeah, there are thousands of these no doubt but you only learn by doing. And here's me having done did one.
 
 ## Installation (dev)
-
+	npm install -g electron-packager
 	yarn install
 
 ## Compile and Run (dev) - run-dev.bat
@@ -12,4 +12,4 @@ Yeah, there are thousands of these no doubt but you only learn by doing. And her
 
 ## Compile for Distribution (production) - compile-dist.bat
 
-	electron-packager . --out=dist
+	npm run dist
