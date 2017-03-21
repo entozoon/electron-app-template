@@ -2,9 +2,10 @@
   "name": "electron-app-template",
   "version": "0.0.1",
   "description": "Electron App Template",
-  "main": "main.js",
+  "main": "./app/main.js",
   "scripts": {
-    "start": "electron ."
+    "refresh": "electron .",
+    "watch": "npm-watch | lapis"
   },
   "repository": "https://github.com/entozoon/electron-app-template",
   "keywords": [
@@ -19,17 +20,14 @@
     "electron-packager": "^8.6.0"
   },
   "dependencies": {
+    "lapis-compiler": "^1.6.4",
     "npm-watch": "^0.1.8"
-  },
-  "scripts": {
-      "refresh": "electron .",
-      "watch": "npm-watch"
   },
   "watch": {
     "refresh": {
-        "patterns": "*",
-        "extensions": "js,jsx,css",
-        "quiet": true
-	}
+      "patterns": "*",
+      "extensions": "js,jsx,css",
+      "quiet": true
+    }
   }
 }
