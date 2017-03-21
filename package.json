@@ -1,0 +1,35 @@
+{
+  "name": "electron-app-template",
+  "version": "0.0.1",
+  "description": "Electron App Template",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/entozoon/electron-app-template",
+  "keywords": [
+    "lists",
+    "imdb",
+    "movies"
+  ],
+  "author": "MichaelCook <entozoon@gmail.com>",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.4.1",
+    "electron-packager": "^8.6.0"
+  },
+  "dependencies": {
+    "npm-watch": "^0.1.8"
+  },
+  "scripts": {
+      "refresh": "electron .",
+      "watch": "npm-watch"
+  },
+  "watch": {
+    "refresh": {
+        "patterns": "*",
+        "extensions": "js,jsx,css",
+        "quiet": true
+	}
+  }
+}
