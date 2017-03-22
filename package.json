@@ -7,7 +7,7 @@
     "refresh": "electron .",
     "watch": "start lapis && npm-watch",
     "watch-alt": "npm-watch | lapis",
-    "dist": "electron-packager . --out=dist --overwrite"
+    "dist": "electron-packager . --out=dist --overwrite --version-string.FileDescription=electron-app-template"
   },
   "repository": "https://github.com/entozoon/electron-app-template",
   "keywords": [
