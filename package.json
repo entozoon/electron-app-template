@@ -5,15 +5,15 @@
   "main": "./app/main.js",
   "scripts": {
     "refresh": "electron .",
-    "watch": "start lapis && npm-watch",
-    "watch-alt": "npm-watch | lapis",
+    "dev": "start lapis && npm-watch",
+    "dev-alt": "npm-watch | lapis",
     "dist": "electron-packager . --out=dist --overwrite --version-string.FileDescription=electron-app-template"
   },
   "repository": "https://github.com/entozoon/electron-app-template",
   "keywords": [
-    "lists",
-    "imdb",
-    "movies"
+    "electron",
+    "node",
+    "javascript"
   ],
   "author": "MichaelCook <entozoon@gmail.com>",
   "license": "CC0-1.0",

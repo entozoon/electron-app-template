@@ -6,10 +6,10 @@ Yeah, there are thousands of these no doubt but you only learn by doing. And her
 	npm install -g electron-packager
 	yarn install
 
-## Compile and Run (dev) - run-dev.bat
+## Compile and Run (dev)
 
-	npm run watch
+	npm run dev
 
-## Compile for Distribution (production) - compile-dist.bat
+## Compile for Distribution (production)
 
 	npm run dist
